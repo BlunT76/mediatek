@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <title>
+        <!-- Le titre -->
+    </title>
+    <!-- <link href="css/styles.css" rel="stylesheet">-->
+
+</head>
+
+<body>
+    <!--NAVBAR-->
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" id="titre" href="/"> Mediatheque</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="form-inline ml-auto my-2 my-lg-0" action="/search" method="post">
+                <a href="/newpost" class="btn btn-success my-2 my-sm-0 mr-2">
+                 New Post
+            </a>
+                <input class="form-control sm-2" type="search" placeholder="Search by User" aria-label="Search" name="search">
+                <button class="btn btn-outline-success my-2 my-sm-0 ml-1" type="submit"></button>
+            </form>
+            <a href="/userlogin" class="btn btn-outline-success my-2 my-sm-0 ml-2">
+             Login
+        </a>
+            <a href="/newuser" class="btn btn-outline-success my-2 my-sm-0 ml-2">
+             Sign In
+        </a>
+        </div>
+    </nav>
+
+    <!--FIN NAVBAR-->
+    <div class=''>
+        <div id="book"></div>
+    </div>
+    
+    
+    
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+    
+    
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
